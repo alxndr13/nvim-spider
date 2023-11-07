@@ -1,3 +1,7 @@
+# NOTE! ⚠️
+
+This is a fork of chrisgrieser's nvim-spider, it just adds support to jump to the next bracket.
+
 <!-- LTeX: enabled=false -->
 # nvim-spider 🕷️🕸️
 <!-- LTeX: enabled=true -->
@@ -72,7 +76,7 @@ If you prefer to use this plugin only for subword motion, you can disable this
 feature by setting `skipInsignificantPunctuation = false` in the `.setup()`
 call.
 
-> __Note__  
+> __Note__
 > This plugin ignores vim's `iskeyword` option.
 
 ## Installation
@@ -124,7 +128,7 @@ vim.keymap.set(
 )
 ```
 
-> __Note__  
+> __Note__
 > For dot-repeat to work, you have to call the motions as Ex-commands. When
 > calling `function() require("spider").motion("w") end` as third argument of
 > the keymap, dot-repeatability <!-- vale Google.Will = NO -->will *not* work.
@@ -171,20 +175,20 @@ camelCase, check out the `subword` text object of
 [nvim-various-textobjs](https://github.com/chrisgrieser/nvim-various-textobjs).
 
 ## Credits
-__Thanks__  
+__Thanks__
 To `@vypxl` and `@ii14` [for figuring out dot-repeatability](https://github.com/chrisgrieser/nvim-spider/pull/4).
 
 <!-- vale Google.FirstPerson = NO -->
-__About Me__  
+__About Me__
 In my day job, I am a sociologist studying the social mechanisms underlying the
 digital economy. For my PhD project, I investigate the governance of the app
 economy and how software ecosystems manage the tension between innovation and
 compatibility. If you are interested in this subject, feel free to get in touch.
 
-__Blog__  
+__Blog__
 I also occasionally blog about vim: [Nano Tips for Vim](https://nanotipsforvim.prose.sh)
 
-__Profiles__  
+__Profiles__
 - [reddit](https://www.reddit.com/user/pseudometapseudo)
 - [Discord](https://discordapp.com/users/462774483044794368/)
 - [Academic Website](https://chris-grieser.de/)
