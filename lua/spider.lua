@@ -75,7 +75,7 @@ local function getNextPosition(line, col, key, opts)
 		punctuationAtStart = "^%p+%f[%s]",
 		punctuationAtEnd = "%f[^%s]%p+$",
 		onlyPunctuationLine = "^%p+$",
-    braces = "%f[%[%]]",
+    braces = "%f[%[%]{}]",
 	}
 	if not opts.skipInsignificantPunctuation then patterns.punctuation = "%p+" end
 
